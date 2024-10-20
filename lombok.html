@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keindahan Lombok - Wisata Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .nav {
+            background-color: #34495e;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav h2 {
+            color: #ecf0f1;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+
+        .nav ul li {
+            margin-left: 25px;
+        }
+
+        .nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .nav ul li a:hover {
+            color: #e74c3c;
+        }
+
+        .hero {
+            background: url('https://images.pexels.com/photos/4552428/pexels-photo-4552428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+            height: 80vh;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            color: white;
+            position: absolute;
+            bottom: 20%;
+            left: 10%;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            max-width: 60%;
+            line-height: 1.2;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            font-size: 20px;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            color: #7f8c8d;
+        }
+
+        /* Galeri gambar dengan layout grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 16px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <h2>Explore Lombok</h2>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="bali.html">Bali</a></li>
+            <li><a href="papua.html">Papua</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Selamat Datang di Lombok</h1>
+    </section>
+
+    <!-- Konten Utama -->
+    <section class="content">
+        <h2>Pesona Alam Lombok yang Tak Tertandingi</h2>
+        <p>
+            <strong>Pantai-pantai Kece yang Menggoda.</strong><br>
+            Lombok punya pantai-pantai yang bikin kamu pengen terbang kesini! Dari Pantai Kuta dengan ombaknya yang memanggil untuk berselancar, sampai Pantai Tanjung Aan dengan pasir putih lembut yang siap jadi alas kaki kamu. Bayangin duduk santai di bawah pohon kelapa, nyeruput es kelapa muda, dan mendengar deburan ombak. Setiap sudutnya itu bikin hati bergetar, guys!
+        </p>
+        <p>
+            <strong>Gunung Rinjani: Si Raksasa yang Menantang.</strong><br>
+            Buat kamu yang doyan tantangan, Gunung Rinjani adalah tempat yang wajib banget dikunjungi! Dengan pemandangan luar biasa, kamu bakal merasakan adrenaline yang bikin semangat. Trek mendakinya bener-bener seru, jadi jangan lupa bawa kamera untuk mengabadikan setiap momen seru di sini!
+        </p>
+        <p>
+            <strong>Suasana Tropis yang Menggoda.</strong><br>
+            Di Lombok, kamu akan merasakan suasana tropis yang bikin betah berlama-lama. Santai di bangku kayu, ngopi sambil menikmati pemandangan laut yang biru, rasanya semua beban akan menghilang. Lombok itu bagaikan surga tersembunyi yang siap menyambut setiap petualang!
+        </p>
+        <p>
+            <strong>Kuliner yang Menggugah Selera.</strong><br>
+            Jangan lupa nyobain makanan khas Lombok yang pedas menggigit! Dari ayam taliwang yang nendang, sampai plecing kangkung yang bikin kamu pengen tambah terus. Setiap suapan bagaikan ledakan rasa di mulut, siap menghangatkan hatimu!
+        </p>
+
+        <!-- Galeri gambar Lombok -->
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/4552428/pexels-photo-4552428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pantai Lombok">
+            <img src="https://images.pexels.com/photos/3857215/pexels-photo-3857215.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gunung Rinjani">
+            <img src="https://images.pexels.com/photos/17850921/pexels-photo-17850921/free-photo-of-wooden-swing-on-tree-on-beach.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ayunan di Pantai Lombok">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Wisata Indonesia. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>

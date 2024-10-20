@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papua</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .nav {
+            background-color: #1e3d59;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav h2 {
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+
+        .nav ul li {
+            margin-left: 25px;
+        }
+
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .nav ul li a:hover {
+            color: #ffcb9a;
+        }
+
+        .hero {
+            background: url('https://images.pexels.com/photos/4618216/pexels-photo-4618216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+            height: 80vh;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            color: white;
+            position: absolute;
+            bottom: 20%;
+            left: 10%;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            max-width: 60%;
+            line-height: 1.2;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            font-size: 20px;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            color: #555;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background-color: #1e3d59;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <h2>Jelajahi Papua</h2>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="lombok.html">Lombok</a></li>
+            <li><a href="bali.html">Bali</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Selamat Datang di Papua: Surga Tersembunyi di Timur Indonesia</h1>
+    </section>
+
+    <!-- Konten Utama -->
+    <section class="content">
+        <h2>Keindahan Papua yang Menawan</h2>
+        <p>
+            Guys, Papua itu luar biasa! Budaya yang beragam dan unik bikin kita merasa kayak masuk ke dunia yang berbeda. Dari tari tradisional yang bikin merinding, kerajinan tangan yang colorful, sampai ritual yang kaya makna, semua itu ada di sini. Masyarakat Papua itu sangat menjaga warisan mereka, lho. Mereka ngajarin anak-anak mereka tentang seni dan bahasa lokal, biar budaya ini terus hidup!
+            <br><br>
+            Jangan sampai ketinggalan festival budaya yang meriah! Dengan kostum yang berwarna-warni dan iringan alat musik tradisional, setiap pertunjukan itu adalah pengalaman yang gak boleh dilewatkan. Ditambah keramahan penduduk lokal, kamu bakal merasa disambut dengan hangat di setiap langkahmu.
+        </p>
+
+        <h2>Laut Papua yang Menakjubkan</h2>
+        <p>
+            Ombak di Laut Papua? Gak ada duanya! Airnya yang jernih bikin kamu pengen nyelam dan menjelajahi keindahan bawah lautnya. Snorkeling di Taman Nasional Teluk Cenderawasih atau Raja Ampat itu kayak mimpi jadi kenyataan. Kamu bakal ketemu terumbu karang dan ikan-ikan cantik yang bikin kagum. Masyarakat di sini juga sangat peduli dengan kelestarian laut, jadi mereka menjaga agar keindahan ini tetap ada untuk generasi berikutnya.
+            <br><br>
+            Jadi, kalau kamu cari tempat dengan keindahan alam yang memesona, budaya yang kaya, dan pengalaman yang autentik, Papua adalah pilihan yang tepat! Yuk, jelajahi Papua!
+        </p>
+
+        <!-- Galeri gambar dengan layout asimetris -->
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/13454756/pexels-photo-13454756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Keindahan Alam Papua">
+            <img src="https://images.pexels.com/photos/1373009/pexels-photo-1373009.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pantai Papua yang Eksotis">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Jelajahi Indonesia. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
